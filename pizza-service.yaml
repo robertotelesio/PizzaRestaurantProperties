@@ -11,7 +11,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/PizzaServiceDB
     username: root
-    password:
+    password: root
   jpa:
     # Connettore del database.
     database-platform: org.hibernate.dialect.MySQL8Dialect
