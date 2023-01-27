@@ -1,4 +1,6 @@
 spring:
+  zipkin:
+    base-url: http://localhost:9411
   datasource:
     # Uso del server H2 come file. In questo modo rimane sbloccato.
     #    driver-class-name: org.h2.Driver
